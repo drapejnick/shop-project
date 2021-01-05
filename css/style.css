@@ -16,6 +16,7 @@
     align-items: center;
     height: 100%;
     justify-content: space-between;
+    position: relative;
 }
 
 .header__logo {
@@ -88,6 +89,59 @@
     text-align: left;
     color: #f16d7f;
 }
+
+.header__navigation {
+    position: absolute;
+    height: 764px;
+    left: 1368px;
+    top: 75px;
+    border-radius: 0px;
+    background-color: #FFFFFF;
+    display: none;
+}
+
+.header__navigation-title {
+    margin-top: 37px;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header__navigation-item p{
+    margin-top: 24px;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F16D7F;
+    text-transform: uppercase;
+}
+
+.header__navigation-sub-list {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6F6E6E;
+}
+
+.header__navigation-sub-list li {
+    margin-left: 17px;
+    margin-top: 11px;
+}
+
+
 
 .category {
     margin: 63px;
@@ -289,6 +343,7 @@
     line-height: 16px;
     letter-spacing: 0em;
     text-align: left;
+    text-decoration: none;
 }
 
 .product__description {
@@ -398,4 +453,165 @@
     letter-spacing: 0em;
     text-align: center;
     color: #FBFBFB;
+}
+
+.footer {
+    background-image: url(../img/photo\ subscribe.png);
+}
+
+.footer__subscribe {
+    height: 448px;
+    display: flex;
+}
+
+.footer__subscribe-quotation {
+    width: 800 px;
+}
+
+.subscribe-quotation-img {
+    padding-top: 87px;
+    padding-left: 110px;
+}
+
+.subscribe-quotation-text {
+    padding-top: 23px;
+    text-align: center;
+    width: 360px;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 24px;
+}
+
+.subscribe-quotation-text p {
+    display: inline;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.footer__subscribe-text {
+    margin-left: 323px;
+}
+
+.subscribe-text-descrip {
+    padding-top: 145px;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.subscribe-text-descrip p {
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.subscribe-text-input {
+    display: flex;
+}
+
+.subscribe-text-input input{
+    padding-left: 20px;
+    border: none;
+    margin-top: 18px;
+    width: 235px;
+    height: 49px;
+    border-radius: 23px 0 0 23px;
+    background-color: #e1e1e1;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.subscribe-text-input input:focus {
+    outline-color: #f16d7f; 
+}
+
+.input-Btn {
+    margin-top: 18px;
+    border: none;
+    color: white;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 0 23px 23px 0;
+    background-color: #f16d7f;
+    width: 100px;
+    height: 51px;
+}
+
+.footer__copyrights {
+    height: 79px;
+    background-color: #222224;
+}
+
+.copyrights {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyrights-Left {
+    padding-top: 30px;
+    color: #FBFBFB;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.copyrights-Right {
+    width: 148px;
+    height: 32px;
+    padding-top: 24px;
+}
+
+.copy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyrights-Right a {
+    text-decoration: none;
+    color: inherit;
+ }
+ 
+.copyrights-Right i {
+    width: 32px;
+    height: 32px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+ .copyrights-Right i:hover {
+    background: #F16D7F;
 }

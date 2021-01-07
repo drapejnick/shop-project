@@ -1,5 +1,8 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    font-family: Lato, Lato-black, sans-serif;
+}
 
 .header {
     background-color: black;
@@ -16,6 +19,7 @@
     align-items: center;
     height: 100%;
     justify-content: space-between;
+    position: relative;
 }
 
 .header__logo {
@@ -58,35 +62,80 @@
 }
 
 .promo__text h2 {
-    font-family: Lato;
+    font-family: inherit;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
     line-height: 58px;
-    letter-spacing: 0em;
 }
 
 .promo__text h3 {
     text-align: left;
-    font-family: Lato;
+    font-family: inherit;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 38px;
-    letter-spacing: 0em;
     text-align: left;
 }
 
 .promo__text span {
     text-align: left;
-    font-family: Lato;
+    font-family: inherit;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 38px;
-    letter-spacing: 0em;
     text-align: left;
-    color: #f16d7f;
+    color: #F15D7F;
+}
+
+.header__navigation {
+    position: absolute;
+    height: 764px;
+    left: 1368px;
+    top: 75px;
+    border-radius: 0px;
+    background-color: #FFFFFF;
+    display: none;
+}
+
+.header__navigation-title {
+    margin-top: 37px;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+}
+
+.header__navigation-item p {
+    margin-top: 24px;
+    font-family: inherit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #F16D7F;
+    text-transform: uppercase;
+}
+
+.header__navigation-sub-list {
+    font-family: inherit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #6F6E6E;
+}
+
+.header__navigation-sub-list li {
+    margin-left: 17px;
+    margin-top: 11px;
 }
 
 .category {
@@ -107,25 +156,23 @@
 
 .category__woman h2 {
     padding-top: 105px;
-    font-family: Lato;
+    font-family: inherit;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 19px;
-    letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
 }
 
 .category__woman h3 {
-    font-family: Lato;
+    font-family: inherit;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 29px;
-    letter-spacing: 0em;
     text-align: center;
-    color: #f16d7f;
+    color: #F16D7F;
 }
 
 .category__man {
@@ -136,25 +183,23 @@
 
 .category__man h2 {
     padding-top: 105px;
-    font-family: Lato;
+    font-family: inherit;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 19px;
-    letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
 }
 
 .category__man h3 {
-    font-family: Lato;
+    font-family: inherit;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 29px;
-    letter-spacing: 0em;
     text-align: center;
-    color: #f16d7f;
+    color: #F16D7F;
 }
 
 .category__kids {
@@ -165,25 +210,23 @@
 
 .category__kids h2 {
     padding-top: 105px;
-    font-family: Lato;
+    font-family: inherit;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 19px;
-    letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
 }
 
 .category__kids h3 {
-    font-family: Lato;
+    font-family: inherit;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 29px;
-    letter-spacing: 0em;
     text-align: center;
-    color: #f16d7f;
+    color: #F16D7F;
 }
 
 .category__accesories {
@@ -195,25 +238,23 @@
 
 .category__accesories  h2 {
     padding-top: 65px;
-    font-family: Lato;
+    font-family: inherit;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 19px;
-    letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
 }
 
 .category__accesories h3 {
-    font-family: Lato;
+    font-family: inherit;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 29px;
-    letter-spacing: 0em;
     text-align: center;
-    color: #f16d7f;
+    color: #F16D7F;
 }
 
 .featured_items {
@@ -221,22 +262,20 @@
 }
 
 .featured_items h3 {
-    font-family: Lato;
+    font-family: inherit;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: 36px;
-    letter-spacing: 0em;
     text-align: center;
 }
 
 .featured_items h4 {
-    font-family: Lato;
+    font-family: inherit;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 17px;
-    letter-spacing: 0em;
     text-align: center;
     color: #9F9F9F;
 }
@@ -282,51 +321,48 @@
 }
 
 .product__name {
-    font-family: Lato;
+    font-family: inherit;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
     line-height: 16px;
-    letter-spacing: 0em;
     text-align: left;
+    text-decoration: none;
 }
 
 .product__description {
     padding-top: 12px;
-    font-family: Lato;
+    font-family: inherit;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
     line-height: 17px;
-    letter-spacing: 0em;
     text-align: left;
 }
 
 .product__price {
     padding-top: 18px;
-    font-family: Lato;
+    font-family: inherit;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 19px;
-    letter-spacing: 0em;
     text-align: left;
     color: #F16D7F;
 }
 
 .product__add {
-    color: #ffffff;
+    color: #FFFFFF;
     display: block;
     height: 39px;
     width: 123px;
-    font-family: Lato;
+    font-family: inherit;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 17px;
-    letter-spacing: 0em;
     text-align: left;
-    border: 1px solid #ffffff;
+    border: 1px solid #FFFFFF;
     display: none;
     justify-content: center;
     align-items: center;
@@ -343,14 +379,13 @@
 
 .button {
     color: #FFFFFF;
-    font-family: Lato;
+    font-family: inherit;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 19px;
-    letter-spacing: 0em;
     text-align: left;
-    background-color: #f16d7f;
+    background-color: #F16D7F;
     padding-left: 19px;
     padding-right: 19px;    
     line-height: 38px;
@@ -379,23 +414,175 @@
 .description__small {
     padding-top: 28px;
     color: #FBFBFB;
-    font-family: Lato;
+    font-family: inherit;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: left;
 }
 
 .description__big {
     padding-top: 16px;
-    font-family: Lato;
+    font-family: inherit;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
     line-height: 17px;
-    letter-spacing: 0em;
     text-align: center;
     color: #FBFBFB;
+}
+
+.footer {
+    background-image: url(../img/photo_subscribe.png);
+}
+
+.footer__subscribe {
+    height: 448px;
+    display: flex;
+}
+
+.footer__subscribe-quotation {
+    width: 800 px;
+}
+
+.subscribe-quotation-img {
+    padding-top: 87px;
+    padding-left: 110px;
+}
+
+.subscribe-quotation-text {
+    padding-top: 23px;
+    text-align: center;
+    width: 360px;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.subscribe-quotation-text p {
+    display: inline;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.footer__subscribe-text {
+    margin-left: 323px;
+}
+
+.subscribe-text-descrip p {
+    padding-top: 145px;
+    font-family: inherit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+}
+
+.subscribe-text-descrip span {
+    font-family: inherit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.subscribe-text-input {
+    display: flex;
+}
+
+.subscribe-text-input input{
+    padding-left: 20px;
+    border: none;
+    margin-top: 18px;
+    width: 235px;
+    height: 49px;
+    border-radius: 23px 0 0 23px;
+    background-color: #E1E1E1;
+    font-family: inherit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+}
+
+.subscribe-text-input input:focus {
+    outline-color: #F16D7F;
+}
+
+.input-Btn {
+    margin-top: 18px;
+    border: none;
+    color: white;
+    font-family: inherit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    border-radius: 0 23px 23px 0;
+    background-color: #F16D7F;
+    width: 100px;
+    height: 51px;
+}
+
+.footer__copyrights {
+    height: 79px;
+    background-color: #222224;
+}
+
+.copyrights {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyrights-Left {
+    padding-top: 30px;
+    color: #FBFBFB;
+    font-family: inherit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+
+.copyrights-Right {
+    width: 148px;
+    height: 32px;
+    padding-top: 24px;
+}
+
+.copy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyrights-Right a {
+    text-decoration: none;
+    color: inherit;
+ }
+ 
+.copyrights-Right i {
+    width: 32px;
+    height: 32px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+ .copyrights-Right i:hover {
+    background: #F16D7F;
 }

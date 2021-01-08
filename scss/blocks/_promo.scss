@@ -1,0 +1,49 @@
+.promo {
+    height: 764px;
+    display: flex;
+
+    .promo__img {
+        width: 100%;
+    }
+
+    .promo__text {
+        padding: 335px 0 0 64px;
+        width: 100%;
+        background: $pink-background;
+        display: flex;
+    }
+    
+    .promo__text-brand {
+        padding-left: 16px;
+    }
+    
+    .promo__text h2 {
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 900;
+        @include font (48px, 58px);
+    }
+    
+    .promo__text h3 {
+        text-align: left;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 700;
+        text-align: left;
+        @include font (32px, 38px);
+    }
+    
+    .promo__text span {
+        text-align: left;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 700;
+        text-align: left;
+        color: $pink-color;
+        @include font (32px, 38px);
+    }
+}
+
+
+
+

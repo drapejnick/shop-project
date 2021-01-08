@@ -1,0 +1,119 @@
+.registration-form {
+    margin-top: 64px;
+    display: flex;
+
+    .registration-form__hidden {
+        display: none;
+    }
+
+    .registration-form__left {
+       
+    }
+
+    .registration-form__title {
+        display: block;
+        font-style: normal;
+        font-weight: 300;
+        @include font (16px,19px);
+    }
+
+    .registration-form__text {
+        margin-top: 20px;
+        display: block;
+        height: 45px;
+        width: 360px;
+        left: 230px;
+        top: 326px;
+        border: 1px solid #A4A4A4;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        @include font (13px,16px);
+        padding-left: 17px;
+    }
+
+    .registration-form__choise1 {
+        margin-top: 34px;
+        margin-bottom: 30px;
+    }
+
+    .registration-form__choise2 {
+        margin-top: 34px;
+        margin-left: 20px;
+    }
+
+    .registration-form__choise-Male {
+        font-style: normal;
+        font-weight: 300;
+        @include font (11px,13px);
+        
+    }
+
+    .registration-form__choise-Female {
+        font-style: normal;
+        font-weight: 300;
+        @include font (11px,13px);
+    }
+
+    .registration-form__description {
+        margin-top: 15px;
+        font-style: normal;
+        font-weight: 300;
+        @include font (13px,16px);
+        width: 359px;
+        color: $grey-text-color;
+    }
+
+    .registration-form__button {
+        margin-top: 39px;
+        text-transform: uppercase;
+        height: 50px;
+        width: 167px;
+        left: 230px;
+        top: 752px;
+        background-color: $pink-color;
+        border: none;
+        color: $white-color;
+        font-weight: 400;
+        @include font (14px,17px);
+        text-align: left;
+        padding-left: 23px;
+        margin-bottom: 90px;
+    }
+
+    .registration-form__button i {
+        padding-left: 15px;
+    }
+
+    .registration-form__right {
+        margin-left: 128px;
+    }
+
+    .registration-form__right-title {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 29px;
+        @include font (24px,29px);
+        text-transform: uppercase;
+    }
+
+    .registration-form__right-text {
+        font-weight: 300;
+        @include font (24px,29px);
+        margin-top: 22px;
+    }
+
+    .registration-form__right-list {
+        margin-top: 21px;
+    }
+
+    .registration-form__right-item {
+        font-weight: 300;
+        @include font (24px,29px);
+        padding-bottom: 16px;
+    }
+
+    .registration-form__right-item span {
+        padding-left: 23px;
+    }
+}

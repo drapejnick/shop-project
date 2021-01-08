@@ -1,0 +1,16 @@
+.breadcrumbs {
+    background-color: $pink-bkg-color;
+    height: 148px;
+
+    .breadcrumbs__title {
+    text-transform: uppercase;
+    color: $pink-color;
+    padding-top: 59px;
+    font-family: inherit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;   
+    line-height: 29px;
+    @include font (24px,29px);
+    }
+}

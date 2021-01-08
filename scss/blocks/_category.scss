@@ -1,0 +1,114 @@
+.category {
+    margin: 63px;
+    height: 470px;
+
+    .category_container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .category__woman {
+        width:360px;
+        height: 260px;
+        background-image: url(../img/Woman.png);
+    }
+    
+    .category__woman h2 {
+        padding-top: 105px;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: $white-color;
+        @include font (16px, 19px);
+    }
+    
+    .category__woman h3 {
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        color: $pink-color;
+        @include font (24px, 29px);
+    }
+    
+    .category__man {
+        width:360px;
+        height: 260px;
+        background-image: url(../img/Man.png);
+    }
+    
+    .category__man h2 {
+        padding-top: 105px;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: $white-color;
+        @include font (16px, 19px);
+    }
+    
+    .category__man h3 {
+        font-family: inherit;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 29px;
+        text-align: center;
+        color: $pink-color;
+        @include font (24px, 29px);
+    }
+    
+    .category__kids {
+        width:360px;
+        height: 260px;
+        background-image: url(../img/Kids.png);
+    }
+    
+    .category__kids h2 {
+        padding-top: 105px;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: $white-color;
+        @include font (16px, 19px);
+    }
+    
+    .category__kids h3 {
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        color: $pink-color;
+        @include font (24px, 29px);
+    }
+    
+    .category__accesories {
+        margin-top: 30px;
+        width: 1140px;
+        height: 180px;
+        background-image: url(../img/Accesoreis.png);
+    }
+    
+    .category__accesories  h2 {
+        padding-top: 65px;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: $white-color;
+        @include font (16px, 19px);
+    }
+    
+    .category__accesories h3 {
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        color: $pink-color;
+        @include font (24px, 29px);
+    }
+
+}
+

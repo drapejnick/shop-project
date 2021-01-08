@@ -1,0 +1,148 @@
+.footer {
+    background-image: url(../img/photo_subscribe.png);
+
+    .footer__subscribe {
+        height: 448px;
+        display: flex;
+    }
+    
+    .footer__subscribe-quotation {
+        width: 800 px;
+    }
+    
+    .subscribe-quotation-img {
+        padding-top: 87px;
+        padding-left: 110px;
+    }
+    
+    .subscribe-quotation-text {
+        padding-top: 23px;
+        text-align: center;
+        width: 360px;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 400;
+        @include font (20px,24px);
+    }
+    
+    .subscribe-quotation-text p {
+        display: inline;
+        font-family: inherit;
+        font-style: italic;
+        font-weight: 400;
+        text-align: center;
+        @include font (20px,24px);
+    }
+    
+    .footer__subscribe-text {
+        margin-left: 323px;
+    }
+    
+    .subscribe-text-descrip p {
+        padding-top: 145px;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        @include font (24px,38px);
+    }
+    
+    .subscribe-text-descrip span {
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        @include font (18px,30px);
+    }
+    
+    .subscribe-text-input {
+        display: flex;
+    }
+    
+    .subscribe-text-input input{
+        padding-left: 20px;
+        border: none;
+        margin-top: 18px;
+        width: 235px;
+        height: 49px;
+        border-radius: 23px 0 0 23px;
+        background-color: #E1E1E1;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 400;
+        text-align: left;
+        @include font (14px,17px);
+    }
+    
+    .subscribe-text-input input:focus {
+        outline-color: $pink-color;
+    }
+    
+    .input-Btn {
+        margin-top: 18px;
+        border: none;
+        color: $white-color;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        border-radius: 0 23px 23px 0;
+        background-color: $pink-color;
+        width: 100px;
+        height: 51px;
+        @include font (14px,17px);
+    }
+    
+    .footer__copyrights {
+        height: 79px;
+        background-color: $black-color;
+    }
+    
+    .copyrights {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .copyrights-Left {
+        padding-top: 30px;
+        color: #FBFBFB;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 400;
+        text-align: left;
+        @include font (16px,19px);
+    }
+    
+    .copyrights-Right {
+        width: 148px;
+        height: 32px;
+        padding-top: 24px;
+    }
+    
+    .copy {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .copyrights-Right a {
+        text-decoration: none;
+        color: inherit;
+     }
+     
+    .copyrights-Right i {
+        width: 32px;
+        height: 32px;
+        background: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     }
+    
+     .copyrights-Right i:hover {
+        background: $pink-color;
+    }
+    
+}
+

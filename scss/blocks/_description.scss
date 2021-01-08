@@ -1,0 +1,41 @@
+.description {
+    margin-top: 95.5px;
+    height: 341px;
+    background: $black-color;
+
+    .description__all {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .description__part {
+        width: 316px;
+        height: 341px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .description__small {
+        padding-top: 28px;
+        color: $white-color;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 400;
+        text-align: left;
+        @include font (20px,24px);
+    }
+    
+    .description__big {
+        padding-top: 16px;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 300;
+        text-align: center;
+        color: #FBFBFB;
+        @include font (14px,17px);
+    }
+    
+}
+

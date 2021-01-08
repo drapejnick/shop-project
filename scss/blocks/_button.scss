@@ -1,0 +1,18 @@
+.button-show {
+    margin-top: 18.5px;
+    display: flex;
+    justify-content: center;
+
+    .button {
+        color: $white-color;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 400;
+        text-align: left;
+        background-color: $pink-color;
+        padding-left: 19px;
+        padding-right: 19px;    
+        line-height: 38px;
+        @include font (16px,38px);
+    }
+}

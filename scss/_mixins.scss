@@ -1,0 +1,10 @@
+@mixin flex-center-space-berween {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @mixin font($font-size, $line-height) {
+    font-size: $font-size;
+    line-height: $line-height;
+  }
